@@ -1,0 +1,17 @@
+import java.util.Scanner;
+public class jagged { 
+    public static void main(String[] args) { 
+    Scanner scanner = new Scanner(System.in);
+    System.out.print("Input number: ");
+    int num = scanner.nextInt();
+    int i,j;
+    int k = 1;
+    for(i = 0; i<num;i++){
+        for(j=0;j<num - i ;j++){
+        System.out.print(k+ " ");
+        k++;
+    }
+    System.out.println();
+    }
+    }
+}
